@@ -5,6 +5,9 @@
     </Product>
   </Add>
   <Updates Enabled="TRUE" />
-  <Display Level="Full" AcceptEULA="TRUE" />
+  <AppSettings>
+    <Setup Name="Company" Value="Résidences le Logement des Fonctionnaires" />
+  </AppSettings>
+  <Display Level="None" AcceptEULA="TRUE" />
   <Logging Level="Standard" Path="%temp%" />
 </Configuration>
